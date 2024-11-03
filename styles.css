@@ -1,0 +1,87 @@
+.home-title, .page-title
+ {
+    font-family: Georgia, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(144, 28, 28)
+    }
+
+.home-title {
+    font-size: 55px;
+}
+
+.page-title {
+    font-size: 45px;
+}
+
+button {
+    background: rgb(62, 159, 62);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px; /* Increase the font size */
+    font-family: Georgia, Helvetica, sans-serif;
+    border: none; /* Remove the default button border */
+}
+
+button a {
+    color: rgb(255, 255, 255); /* Set the text color to white */
+    text-decoration: none; /* Remove the default underline */
+}
+    
+.home-image, .page-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-image {
+    height: auto;
+    width: 300px;
+}
+
+.page-image {
+    height: 420px;
+    width: auto;
+}
+
+.prompt, .list-title{
+    font-family: Georgia, Helvetica, sans-serif;
+    color:rgb(33, 67, 67);
+}
+
+.list-title{
+    font-size: 19px;
+}
+
+.prompt{
+    text-align: center;
+}
+
+.paragraph, .list{
+    font-family: Georgia, Helvetica, sans-serif;
+    font-weight: 560;
+    color:hsl(10, 87%, 24%);
+}
+
+.paragraph{
+    font-size: 18px;
+}
+
+.list{
+    font-size: medium;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.container div {
+    width: 50%;
+}
+  
+body {
+    background-color: rgb(248, 242, 235);
+}
