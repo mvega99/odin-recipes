@@ -19,9 +19,10 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-size: 18px; /* Increase the font size */
+    font-size: 17px; /* Increase the font size */
     font-family: Georgia, Helvetica, sans-serif;
-    border: none; /* Remove the default button border */
+    border: 1px solid black; 
+    padding: 5px;
 }
 
 button a {
@@ -33,6 +34,7 @@ button a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
 }
 
 .home-image {
@@ -48,14 +50,20 @@ button a {
 .prompt, .list-title{
     font-family: Georgia, Helvetica, sans-serif;
     color:rgb(33, 67, 67);
+    padding: 8px;
+    border: 1px solid black;
+    background-color: rgb(250, 241, 227);
 }
 
 .list-title{
     font-size: 19px;
+    text-align: center;
+    margin: 25px 210px;
 }
 
 .prompt{
     text-align: center;
+    margin: 25px 15px;
 }
 
 .paragraph, .list{
@@ -66,10 +74,12 @@ button a {
 
 .paragraph{
     font-size: 18px;
+    margin: 0 10px;
 }
 
 .list{
     font-size: medium;
+    margin: 0 100px;
 
 }
 
